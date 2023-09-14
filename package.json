@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@nuxt/vite-builder": "*",
+    "nuxt": "3.0.0-rc.8",
+    "nuxt-windicss": "latest"
+  }
+}
